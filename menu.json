@@ -1,0 +1,24 @@
+{
+  "attivita": {
+    "nome": "Pizzeria Prova",
+    "telefono": "+39 000 000 0000",
+    "whatsapp": "390000000000",
+    "indirizzo": "Via Esempio 1, 00000 Città",
+    "orari": "Mar-Dom 18:30 - 23:00 (lunedì chiuso)"
+  },
+  "aggiornato": "2026-10-21",
+  "categorie": ["Pizze classiche", "Pizze speciali", "Antipasti", "Dolci", "Bevande"],
+  "piatti": [
+    {"id": "margherita", "nome": "Margherita", "descrizione": "Pomodoro, mozzarella, basilico", "prezzo": 7.99, "categoria": "Pizze classiche", "allergeni": ["glutine", "latte"], "disponibile": true},
+    {"id": "marinara", "nome": "Marinara", "descrizione": "Pomodoro, aglio, origano", "prezzo": 5.0, "categoria": "Pizze classiche", "allergeni": ["glutine"], "disponibile": true},
+    {"id": "diavola", "nome": "Diavola", "descrizione": "Pomodoro, mozzarella, salame piccante", "prezzo": 7.5, "categoria": "Pizze classiche", "allergeni": ["glutine", "latte"], "disponibile": true},
+    {"id": "capricciosa", "nome": "Capricciosa", "descrizione": "Pomodoro, mozzarella, prosciutto, funghi, carciofi", "prezzo": 9.0, "categoria": "Pizze classiche", "allergeni": ["glutine", "latte"], "disponibile": true},
+    {"id": "della-casa", "nome": "Della Casa", "descrizione": "Ingredienti da definire", "prezzo": 10.0, "categoria": "Pizze speciali", "allergeni": ["glutine", "latte"], "disponibile": true},
+    {"id": "bufala", "nome": "Bufala", "descrizione": "Pomodoro, mozzarella di bufala, basilico", "prezzo": 9.5, "categoria": "Pizze speciali", "allergeni": ["glutine", "latte"], "disponibile": false},
+    {"id": "bruschette", "nome": "Bruschette", "descrizione": "Pane tostato, pomodoro, olio", "prezzo": 5.0, "categoria": "Antipasti", "allergeni": ["glutine"], "disponibile": true},
+    {"id": "supplì", "nome": "Supplì", "descrizione": "Riso, ragù, mozzarella", "prezzo": 2.5, "categoria": "Antipasti", "allergeni": ["glutine", "latte", "uova"], "disponibile": true},
+    {"id": "tiramisu", "nome": "Tiramisù", "descrizione": "Fatto in casa", "prezzo": 5.0, "categoria": "Dolci", "allergeni": ["glutine", "latte", "uova"], "disponibile": true},
+    {"id": "acqua", "nome": "Acqua 0,5 l", "descrizione": "", "prezzo": 1.5, "categoria": "Bevande", "allergeni": [], "disponibile": true},
+    {"id": "birra", "nome": "Birra alla spina 0,4 l", "descrizione": "", "prezzo": 4.0, "categoria": "Bevande", "allergeni": ["glutine"], "disponibile": true}
+  ]
+}
